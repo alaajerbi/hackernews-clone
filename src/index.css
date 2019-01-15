@@ -76,3 +76,7 @@ nav {
 .tag-nav {
   height: 40px;
 }
+
+.stories {
+  word-break: break-word;
+}
