@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/hackernews-clone/static/css/1.c56aae82.chunk.css"
   },
   {
-    "revision": "2b20207f2219fd1ff16ada5493ee579f",
+    "revision": "36509bcb519bf29bb9176e6bae221dc5",
     "url": "/hackernews-clone/index.html"
   }
 ];
