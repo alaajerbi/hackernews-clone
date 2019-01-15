@@ -15,12 +15,11 @@ export default class Navbar extends Component {
     this.handleChange = this.handleChange.bind(this);
     this.triggerChange = this.triggerChange.bind(this);
     this.handleKeyDown = this.handleKeyDown.bind(this);
-
   }
 
-    componentWillMount() {
-      this.timer = null;
-    }
+  componentWillMount() {
+    this.timer = null;
+  }
 
   handleChange(event) {
     let value = event.target.value;
@@ -29,32 +28,40 @@ export default class Navbar extends Component {
     this.timer = setTimeout(this.triggerChange, this.WAIT_INTERVAL);
   }
 
-   handleKeyDown(e) {
-        if (e.keyCode === this.ENTER_KEY) {
-            this.triggerChange();
-        }
+  handleKeyDown(e) {
+    if (e.keyCode === this.ENTER_KEY) {
+      this.triggerChange();
     }
+  }
 
-    triggerChange() {
-        let keyword = this.state.value;
+  triggerChange() {
+    let keyword = this.state.value;
 
-        this.props.onChange(keyword);
-    }
+    this.props.onChange(keyword);
+  }
 
   render() {
     return (
       <nav className="navbar">
         <div className="navbar-brand mb-0">
-              <img src={logo} width="40" height="40" alt=""/>
-              <span style={ {color: 'white'} }className="navbar-text ml-2">HN Clone</span>
+          <img src={logo} width="40" height="40" alt="" />
+          <span style={{ color: 'white' }} className="navbar-text ml-2">
+            HN Clone
+          </span>
         </div>
         <div className="form-inline search-bar-container">
-          <input className="form-control mr-sm-2 search-bar" type="search" placeholder="Search" aria-label="Search"
-          onChange={this.handleChange}
-          onKeyDown={this.handleKeyDown}/>
+          <input
+            className="form-control mr-sm-2 search-bar"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            onChange={this.handleChange}
+            onKeyDown={this.handleKeyDown}
+          />
         </div>
         <span className="navbar-text">
-          Made with love by <a href="https://github.com/alaajerbi">Alaa Jerbi</a>
+          Made with love by{' '}
+          <a href="https://github.com/alaajerbi">Alaa Jerbi</a>
         </span>
       </nav>
     );
