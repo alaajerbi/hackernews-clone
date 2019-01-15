@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/hackernews-clone/static/js/runtime~main.230cf5b7.js"
   },
   {
-    "revision": "6dff606d68a2a91bed02",
-    "url": "/hackernews-clone/static/js/main.6dff606d.chunk.js"
+    "revision": "0d8199e528001f3a5416",
+    "url": "/hackernews-clone/static/js/main.0d8199e5.chunk.js"
   },
   {
     "revision": "e53aaf282048aea7b7e4",
     "url": "/hackernews-clone/static/js/1.e53aaf28.chunk.js"
   },
   {
-    "revision": "6dff606d68a2a91bed02",
-    "url": "/hackernews-clone/static/css/main.9b116410.chunk.css"
+    "revision": "0d8199e528001f3a5416",
+    "url": "/hackernews-clone/static/css/main.2fffd351.chunk.css"
   },
   {
     "revision": "e53aaf282048aea7b7e4",
     "url": "/hackernews-clone/static/css/1.436899e9.chunk.css"
   },
   {
-    "revision": "faca7ae591200c3ac04eb0ff74c75712",
+    "revision": "c9298c436a393792ef626574b0b1101d",
     "url": "/hackernews-clone/index.html"
   }
 ];
