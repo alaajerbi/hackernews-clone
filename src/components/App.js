@@ -31,7 +31,6 @@ class App extends Component {
     //get the front page stories upon mounting
     api.fetchStoriesByTag(tag, page)
     .then(data => {
-      console.log(data);
       this.setState({
         stories: data.hits,
         loading: false,
