@@ -1,3 +1,5 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +10,72 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+nav {
+  background-color: var(--orange);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  flex: 1;
+}
+
+.search-bar-container {
+  flex: 5;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-text {
+  flex: 2;
+  color: #222222;
+}
+
+.navbar-text a {
+  color: white;
+  font-weight: bold;
+}
+
+.search-bar {
+  width: 100%!important;
+}
+
+
+.list-group-item:first-child,
+.list-group-item:last-child
+ {
+  border-radius: 0;
+}
+
+
+.highlighted {
+  background-color: yellow;
+}
+
+.active {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) { 
+    .navbar {
+      flex-direction: column;
+    }
+    .search-bar-container {
+      flex: 1;
+      margin-right: 0;
+      margin-left: 0;
+      width: 80%!important;
+    }
+}
+
+.nav-item {
+  cursor: default;
+}
+
+.tag-nav {
+  height: 40px;
 }
