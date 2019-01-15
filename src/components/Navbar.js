@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import logo from '../logo.png';
 
 export default class Navbar extends Component {
   WAIT_INTERVAL = 1000;
@@ -44,7 +44,10 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <span className="navbar-brand mb-0">HN Clone</span>
+        <div className="navbar-brand mb-0">
+              <img src={logo} width="40" height="40" alt=""/>
+              <span style={ {color: 'white'} }className="navbar-text ml-2">HN Clone</span>
+        </div>
         <div className="form-inline search-bar-container">
           <input className="form-control mr-sm-2 search-bar" type="search" placeholder="Search" aria-label="Search"
           onChange={this.handleChange}
