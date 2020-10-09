@@ -2,6 +2,8 @@
 
 A hacker news clone built with ReactJS.
 
+![Hacker News Clone](screenshot.png)
+
 ### This project is part of my 12 projects in 12 months challenge.
 
 ## Live preview
