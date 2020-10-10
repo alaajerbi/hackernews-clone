@@ -4,8 +4,6 @@ A hacker news clone built with ReactJS.
 
 ![Hacker News Clone](hnc.png)
 
-### This project is part of my 12 projects in 12 months challenge.
-
 ## Live preview
 You can view the final app [here.](https://alaajerbi.github.io/hackernews-clone)
 
