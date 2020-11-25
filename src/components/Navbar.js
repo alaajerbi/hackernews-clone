@@ -60,7 +60,7 @@ export default class Navbar extends Component {
           />
         </div>
         <span className="navbar-text">
-          Made with love by{' '}
+          Made with &#10084; by{' '}
           <a href="https://github.com/alaajerbi">Alaa Jerbi</a>
         </span>
       </nav>
