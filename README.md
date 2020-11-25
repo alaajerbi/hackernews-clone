@@ -1,6 +1,6 @@
 # Hacker News Clone
 
-A hacker news clone built with ReactJS. With highlighted search keywords and pagination.
+A hacker news clone with search functionality built with ReactJS. With highlighted search keywords and pagination.
 
 ![Hacker News Clone](hnc.png)
 
